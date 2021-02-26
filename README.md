@@ -40,6 +40,7 @@ jobs:
 | ------------- | ------------- | ------------- | ------------- |
 | `FILE` | The local file you wish to upload to S3. For example, `./myfile.txt`. | `env` | **Yes** |
 | `AWS_REGION` | The region where you created your bucket in. For example, `eu-central-1`. [Full list of regions here.](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions) | `env` | **Yes** |
+| `DESTINATION`|Location to copy to|`env`|**No**|
 
 
 ### Required Secret Variables
